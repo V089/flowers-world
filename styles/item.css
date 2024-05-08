@@ -791,4 +791,8 @@ margin-left: 135px;
         height: 32px;
         background: url(./media/icon/YouTube.svg);
     }
+    .fbf{
+      text-decoration: none;
+      color: #0093a2;
+    }
   }
