@@ -86,165 +86,6 @@
         color: #222a46;
     }
 
-    .table {
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        border: 1px solid #f2f3f5;
-        border-radius: 10px;
-        width: 870px;
-        height: 354px;
-    }
-
-    .table__header {
-        display: flex;
-        flex-direction: row;
-        border-radius: 10px 10px 0 0;
-        width: 870px;
-        height: 50px;
-        background: #f4f5f6;
-    }
-
-    .table__count {
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 143%;
-        color: #505567;
-        margin-left: 20px;
-        margin-top: 15px;
-    }
-
-    .table__name {
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 143%;
-        color: #505567;
-        margin-top: 15px;
-        margin-left: 14px;
-    }
-
-    .table__date {
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 143%;
-        color: #505567;
-        margin-top: 15px;
-        margin-left: 100px;
-    }
-
-    .table__owner {
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 143%;
-        color: #505567;
-        margin-top: 15px;
-        margin-left: 25px;
-    }
-
-    .table__status {
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 143%;
-        color: #505567;
-        margin-top: 15px;
-        margin-left: 62px;
-    }
-
-    .table__sum {
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 143%;
-        color: #505567;
-        margin-top: 15px;
-        margin-left: 88px;
-    }
-
-    .table__item {
-        display: flex;
-        flex-direction: row;
-        width: 870px;
-        height: 60px;
-        border: 1px solid #f2f3f5;
-    }
-
-    .table__count--text {
-        font-family: var(--font-family);
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 137%;
-        color: #0093a2;
-        margin-top: 20px;
-        margin-left: 20px;
-    }
-
-    .table__name--text {
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 143%;
-        color: #222a46;
-        margin-top: 20px;
-        margin-left: 34px;
-    }
-
-    .table__date--text {
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 143%;
-        color: #222a46;
-        margin-top: 20px;
-        margin-left: 20px;
-    }
-
-    .table__owner--text {
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 143%;
-        color: #222a46;
-        margin-top: 20px;
-        margin-left: 51px;
-    }
-
-    .table__status--text {
-        font-family: var(--font-family);
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 143%;
-        color: #ffa500;
-        margin-top: 20px;
-        margin-left: 101px;
-    }
-
-    .table__sum--text {
-        font-family: var(--font-family);
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 137%;
-        text-align: right;
-        color: #1b1c21;
-        margin-top: 20px;
-        margin-left: 11px;
-    }
-
-    .table__rev {
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 154%;
-        color: #0093a2;
-        margin-top: 10px;
-        margin-left: 39px;
-        width: 63px;
-    }
-
     .footer {
         display: flex;
         width: 100%;
@@ -436,5 +277,89 @@
         width: 32px;
         height: 32px;
         background: url(./media/icon/YouTube.svg);
+    }
+
+    .setting {
+        width: 487px;
+        height: 720px;
+        border: 1px solid #f4f5f6;
+        border-radius: 10px;
+        width: 487px;
+        height: 689px;
+        box-shadow: 0 4px 15px 0 rgba(34, 42, 70, 0.08);
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .setting__container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .setting__title {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 144%;
+        color: #353949;
+    }
+
+    .setting__subtitle {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        color: #505567;
+        margin-top: 5px;
+        width: 379px;
+    }
+
+    .setting__name--special {
+        margin-top: 5px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 143%;
+        color: #353949;
+    }
+
+    .setting__name {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 143%;
+        color: #353949;
+        margin-top: 20px;
+    }
+
+    .input__setting {
+        border: 1px solid #d0d2d7;
+        border-radius: 5px;
+        padding: 0px 0px 0px 10px;
+        width: 360px;
+        height: 32px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 137%;
+        color: #1b1c21;
+        margin-top: 5px;
+    }
+
+    .save__btn {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 137%;
+        color: #fff;
+        border-radius: 5px;
+        background: #0093a2;
+        width: 400px;
+        height: 48px;
+        margin-top: 20px;
     }
 }

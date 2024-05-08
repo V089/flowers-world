@@ -93,7 +93,7 @@
         border: 1px solid #f2f3f5;
         border-radius: 10px;
         width: 870px;
-        height: 354px;
+        height: 171px;
     }
 
     .table__header {
@@ -122,7 +122,7 @@
         line-height: 143%;
         color: #505567;
         margin-top: 15px;
-        margin-left: 14px;
+        margin-left: 399px;
     }
 
     .table__date {
@@ -132,7 +132,7 @@
         line-height: 143%;
         color: #505567;
         margin-top: 15px;
-        margin-left: 100px;
+        margin-left: 32px;
     }
 
     .table__owner {
@@ -190,7 +190,7 @@
         line-height: 143%;
         color: #222a46;
         margin-top: 20px;
-        margin-left: 34px;
+        margin-left: 20px;
     }
 
     .table__date--text {
@@ -200,7 +200,7 @@
         line-height: 143%;
         color: #222a46;
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 295px;
     }
 
     .table__owner--text {
@@ -210,7 +210,7 @@
         line-height: 143%;
         color: #222a46;
         margin-top: 20px;
-        margin-left: 51px;
+        margin-left: 60px;
     }
 
     .table__status--text {
