@@ -1,0 +1,74 @@
+@media screen and (min-width : 1440px) {
+    .header {
+        width: 100%;
+        height: 130px;
+        display: flex;
+        z-index: 1;
+        flex-direction: column;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 135px;
+    }
+
+    .main__side-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .side-menu__icons {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 42px;
+    }
+
+    .side-menu__text {
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .cab__text {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 137%;
+        color: #222a46;
+    }
+
+    .icon__prof {
+        width: 24px;
+        height: 24px;
+        background: url(./media/icon/prof.svg);
+    }
+
+    .icon__cart {
+        width: 24px;
+        height: 24px;
+        background: url(./media/icon/cart12.svg);
+    }
+
+    .icon__loc {
+        width: 24px;
+        height: 24px;
+        background: url(./media/icon/loc.svg);
+    }
+
+    .icon__set {
+        width: 24px;
+        height: 24px;
+        background: url(./media/icon/set.svg);
+    }
+
+    .icon__exit {
+        width: 24px;
+        height: 24px;
+        background: url(./media/icon/exit.svg);
+    }
+}

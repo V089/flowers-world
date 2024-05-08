@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/catalog.css" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="icon" href="../styles/media/pictures/logo.svg" type="image/x-icon">
+    <title>Каталог</title>
+  </head>
+  <body>
+<header class="header">
+    <div class="header__nav">
+        <div class="nav__container">
+            <a href="#" class="nav__text">Доставка</a>
+            <a href="#" class="nav__text">Оплата</a>
+            <a href="#" class="nav__text">Отзывы</a>
+            <a href="#" class="nav__text">Информация</a>
+        </div>
+        <a href="#" class="header__social--buttom"></a>
+        <a href="./auth.html" class="header__profile--icon"></a>
+        <a href="#" class="header__profile--text">Мои заказы</a>
+    </div>
+    <div class="header__main">
+         <a href="./index.html" class="header__logo"></a>
+        <div class="header__text">Доставка цветов в Чите</div>
+        <input class="header__search" placeholder="Поиск по сайту" type="text">
+        <div class="header__search--icon"></div>
+        <div class="header__call--buttom">
+            <div class="call__buttom--icon"></div>
+        </div>
+        <div class="header__number--container">
+            <div class="header__number">+7 (999) 777-13-37</div>
+            <a class="header__number--text">Заказать звонок</a>
+        </div>
+        <div class="header__favorites--buttom">
+            <div class="favorites__buttom--icon"></div>
+        </div>
+        <a href="./cart.html" class="header__cart--buttom">
+            <div class="cart__buttom--icon"></div>
+        </a>
+        <div class="header__cart--price">0 ₽</div>
+    </div>
+    <div class="header__lists">
+        <div class="header__lists--container">
+            <div class="header__lists--texts">Цветы поштучно
+                <div class="header__lists--icon"></div>
+            </div>
+            <div class="header__lists--texts">Розы
+                <div class="header__lists--icon"></div>
+            </div>
+            <div class="header__lists--texts">Букеты
+                <div class="header__lists--icon"></div>
+            </div>
+            <div class="header__lists--texts">Композиции
+                <div class="header__lists--icon"></div>
+            </div>
+            <div class="header__lists--texts">Подарки
+                <div class="header__lists--icon"></div>
+            </div>
+            <div class="header__lists--texts">Свадебные букеты</div>
+        </div>
+    </div>
+</header>
+
+     <main class="main">
+
+<div class="grid-item">
+  <div class="edit">
+
+    <div class="headingText">
+      <p class="headingText--text">Главная → Букеты из роз</p>
+    </div>
+
+
+    <p class="headingName">Букеты из роз</p>
+    <ul class="headingList" style="list-style-type: none;">
+  <li class="headingList--item">Кенийские розы</li>
+  <li class="headingList--item">Местные розы</li>
+  <li class="headingList--item">Эквадорские розы</li>
+</ul>
+    
+    
+    <main id="app">
+      <p class="edit-text">Цена</p>
+      <div id="slider1"></div>
+      <div class="edit-textPrize">
+        <p class="edit-textPrize__text">от 500 ₽</p>
+        <p class="edit-textPrize__text">от 45500 ₽</p>
+        <p class="edit-textPrize__text"></p>
+      </div>
+      <script type="module" src="./script1.js"></script>
+    </main>
+
+    <p class="edit-text">Диаметр букета</p>
+
+    <svg viewBox="0 0 0 0" style="position: absolute; z-index: -1; opacity: 0;">
+  <defs>
+    <linearGradient id="boxGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="25" y2="25">
+      <stop offset="0%"   stop-color="#0093A2"/>
+      <stop offset="100%" stop-color="#0093A2"/>
+    </linearGradient>
+
+    <linearGradient id="lineGradient">
+      <stop offset="0%"    stop-color="#0093A2"/>
+      <stop offset="100%"  stop-color="#50c878"/>
+    </linearGradient>
+
+   
+    <path id="todo__box" stroke="url(#boxGradient)" d="M21 12.7v5c0 1.3-1 2.3-2.3 2.3H8.3C7 20 6 19 6 17.7V7.3C6 6 7 5 8.3 5h10.4C20 5 21 6 21 7.3v5.4"></path>
+    <path id="todo__check" stroke="url(#boxGradient)" d="M10 13l2 2 5-5"></path>
+    <circle id="todo__circle" cx="13.5" cy="12.5" r="10"></circle>
+  </defs>
+</svg>
+
+
+<div class="todo-list">
+  <label class="todo">
+    <input class="todo__state" type="checkbox" />
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+  <div class="todo__text">До 25 см</div>
+</label>
+
+
+  <label class="todo">
+  <input class="todo__state" type="checkbox" />
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+
+    <div class="todo__text">26-40 см</div>
+  </label>
+
+  <label class="todo">
+    <input class="todo__state" type="checkbox" />
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+    <div class="todo__text">41-55 см</div>
+  </label>
+
+    <label class="todo">
+    <input class="todo__state" type="checkbox" />
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+    <div class="todo__text">Более 55 см</div>
+  </label>
+
+
+
+  </div>
+<script>
+console.clear();
+
+setTimeout(function(){
+  document.querySelector('input[type="checkbox"]').setAttribute('checked',true);
+},100);
+</script>
+
+    <p class="edit-text">Диаметр букета</p>
+
+    <svg viewBox="0 0 0 0" style="position: absolute; z-index: -1; opacity: 0;">
+  <defs>
+    <linearGradient id="boxGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="25" y2="25">
+      <stop offset="0%"   stop-color="#0093A2"/>
+      <stop offset="100%" stop-color="#0093A2"/>
+    </linearGradient>
+
+    <linearGradient id="lineGradient">
+      <stop offset="0%"    stop-color="#0093A2"/>
+      <stop offset="100%"  stop-color="#50c878"/>
+    </linearGradient>
+
+   
+    <path id="todo__box" stroke="url(#boxGradient)" d="M21 12.7v5c0 1.3-1 2.3-2.3 2.3H8.3C7 20 6 19 6 17.7V7.3C6 6 7 5 8.3 5h10.4C20 5 21 6 21 7.3v5.4"></path>
+    <path id="todo__check" stroke="url(#boxGradient)" d="M10 13l2 2 5-5"></path>
+    <circle id="todo__circle" cx="13.5" cy="12.5" r="10"></circle>
+  </defs>
+</svg>
+
+
+<div class="todo-list">
+  <label class="todo">
+    <input class="todo__state" type="checkbox" />
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+  <div class="todo__text">До 45 см</div>
+</label>
+
+
+  <label class="todo">
+  <input class="todo__state" type="checkbox" />
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+
+    <div class="todo__text">45-60 см</div>
+  </label>
+
+  <label class="todo">
+    <input class="todo__state" type="checkbox" />
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+    <div class="todo__text">61-75 см</div>
+  </label>
+
+    <label class="todo">
+    <input class="todo__state" type="checkbox" />
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+    <div class="todo__text">Более 75 см</div>
+  </label>
+
+
+
+  </div>
+<script>
+console.clear();
+
+setTimeout(function(){
+  document.querySelector('input[type="checkbox"]').setAttribute('checked',true);
+},100);
+</script>
+
+
+    <p class="edit-text">Состав</p>
+
+      <svg viewBox="0 0 0 0" style="position: absolute; z-index: -1; opacity: 0;">
+  <defs>
+    <linearGradient id="boxGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="25" y2="25">
+      <stop offset="0%"   stop-color="#50c878"/>
+      <stop offset="100%" stop-color="#50c878"/>
+    </linearGradient>
+
+    <linearGradient id="lineGradient">
+      <stop offset="0%"    stop-color="#50c878"/>
+      <stop offset="100%"  stop-color="#50c878"/>
+    </linearGradient>
+
+   
+    <path id="todo__box" stroke="url(#boxGradient)" d="M21 12.7v5c0 1.3-1 2.3-2.3 2.3H8.3C7 20 6 19 6 17.7V7.3C6 6 7 5 8.3 5h10.4C20 5 21 6 21 7.3v5.4"></path>
+    <path id="todo__check" stroke="url(#boxGradient)" d="M10 13l2 2 5-5"></path>
+    <circle id="todo__circle" cx="13.5" cy="12.5" r="10"></circle>
+  </defs>
+</svg>
+
+
+<div class="todo-list">
+  <label class="todo">
+    <input class="todo__state" type="checkbox" />
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+  <div class="todo__text">Тюльпаны</div>
+</label>
+
+
+  <label class="todo">
+  <input class="todo__state" type="checkbox" />
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+
+    <div class="todo__text">Эустомы</div>
+  </label>
+
+  <label class="todo">
+    <input class="todo__state" type="checkbox" />
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+    <div class="todo__text">Хризантемы</div>
+  </label>
+
+    <label class="todo">
+    <input class="todo__state" type="checkbox" />
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+    <div class="todo__text">Пионы</div>
+  </label>
+
+   <label class="todo">
+    <input class="todo__state" type="checkbox" />
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+    <div class="todo__text">Герберы</div>
+  </label>
+
+     <label class="todo">
+    <input class="todo__state" type="checkbox" />
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+    <div class="todo__text">Альстромерии</div>
+  </label>
+
+  </div>
+
+<script>
+console.clear();
+
+setTimeout(function(){
+  document.querySelector('input[type="checkbox"]').setAttribute('checked',true);
+},100);
+</script>
+
+<button class="edit-button">Применить</button>
+
+
+  </div>
+</div>
+
+
+<div class="grid-item">
+<h1 class="grid-item__heading">Букеты из роз</h1>
+<div class="grid-container__product">
+  <div class="grid-item__product">
+          <img class="img-items" src="../styles/media/pictures/imageFlower.png" alt="" />
+          <div class="conteiner--info">
+          <a href='./item.html' class="text-items">Букет 25 роз Нежный микс</a>
+        <div class="size-items">
+        <p class="size-items__text">Размер:</p>
+        <span class="size-items__size">MINI</span>
+        <span class="size-items__size">STANDART</span>
+        <span class="size-items__size">MAXI</span>
+        </div>
+        <div class="grid-item__product--price">
+          <p class="grid-item__product--price__price">13 499 ₽</p>
+          <div class="grid-item__product--price__button">В корзину</div>
+        </div>
+        </div>
+        </div>
+          <div class="grid-item__product">
+          <img class="img-items" src="../styles/media/pictures/imageFlower.png" alt="" />
+          <div class="conteiner--info">
+          <a href='./item.html' class="text-items">Букет 25 роз Нежный микс</a>
+        <div class="size-items">
+        <p class="size-items__text">Размер:</p>
+        <span class="size-items__size">MINI</span>
+        <span class="size-items__size">STANDART</span>
+        <span class="size-items__size">MAXI</span>
+        </div>
+        <div class="grid-item__product--price">
+          <p class="grid-item__product--price__price">13 499 ₽</p>
+          <div class="grid-item__product--price__button">В корзину</div>
+        </div>
+        </div>
+        </div>
+          <div class="grid-item__product">
+          <img class="img-items" src="../styles/media/pictures/imageFlower.png" alt="" />
+          <div class="conteiner--info">
+          <a href='./item.html' class="text-items">Букет 25 роз Нежный микс</a>
+        <div class="size-items">
+        <p class="size-items__text">Размер:</p>
+        <span class="size-items__size">MINI</span>
+        <span class="size-items__size">STANDART</span>
+        <span class="size-items__size">MAXI</span>
+        </div>
+        <div class="grid-item__product--price">
+          <p class="grid-item__product--price__price">13 499 ₽</p>
+          <div class="grid-item__product--price__button">В корзину</div>
+        </div>
+        </div>
+        </div>
+          <div class="grid-item__product">
+          <img class="img-items" src="../styles/media/pictures/imageFlower.png" alt="" />
+          <div class="conteiner--info">
+          <a href='./item.html' class="text-items">Букет 25 роз Нежный микс</a>
+        <div class="size-items">
+        <p class="size-items__text">Размер:</p>
+        <span class="size-items__size">MINI</span>
+        <span class="size-items__size">STANDART</span>
+        <span class="size-items__size">MAXI</span>
+        </div>
+        <div class="grid-item__product--price">
+          <p class="grid-item__product--price__price">13 499 ₽</p>
+          <div class="grid-item__product--price__button">В корзину</div>
+        </div>
+        </div>
+        </div>
+          <div class="grid-item__product">
+          <img class="img-items" src="../styles/media/pictures/imageFlower.png" alt="" />
+          <div class="conteiner--info">
+          <a href='./item.html' class="text-items">Букет 25 роз Нежный микс</a>
+        <div class="size-items">
+        <p class="size-items__text">Размер:</p>
+        <span class="size-items__size">MINI</span>
+        <span class="size-items__size">STANDART</span>
+        <span class="size-items__size">MAXI</span>
+        </div>
+        <div class="grid-item__product--price">
+          <p class="grid-item__product--price__price">13 499 ₽</p>
+          <div class="grid-item__product--price__button">В корзину</div>
+        </div>
+        </div>
+        </div>
+          <div class="grid-item__product">
+          <img class="img-items" src="../styles/media/pictures/imageFlower.png" alt="" />
+          <div class="conteiner--info">
+          <a href='./item.html' class="text-items">Букет 25 роз Нежный микс</a>
+        <div class="size-items">
+        <p class="size-items__text">Размер:</p>
+        <span class="size-items__size">MINI</span>
+        <span class="size-items__size">STANDART</span>
+        <span class="size-items__size">MAXI</span>
+        </div>
+        <div class="grid-item__product--price">
+          <p class="grid-item__product--price__price">13 499 ₽</p>
+          <div class="grid-item__product--price__button">В корзину</div>
+        </div>
+        </div>
+        </div>
+          <div class="grid-item__product">
+          <img class="img-items" src="../styles/media/pictures/imageFlower.png" alt="" />
+          <div class="conteiner--info">
+          <a href='./item.html' class="text-items">Букет 25 роз Нежный микс</a>
+        <div class="size-items">
+        <p class="size-items__text">Размер:</p>
+        <span class="size-items__size">MINI</span>
+        <span class="size-items__size">STANDART</span>
+        <span class="size-items__size">MAXI</span>
+        </div>
+        <div class="grid-item__product--price">
+          <p class="grid-item__product--price__price">13 499 ₽</p>
+          <div class="grid-item__product--price__button">В корзину</div>
+        </div>
+        </div>
+        </div>
+          <div class="grid-item__product">
+          <img class="img-items" src="../styles/media/pictures/imageFlower.png" alt="" />
+          <div class="conteiner--info">
+          <a href='./item.html' class="text-items">Букет 25 роз Нежный микс</a>
+        <div class="size-items">
+        <p class="size-items__text">Размер:</p>
+        <span class="size-items__size">MINI</span>
+        <span class="size-items__size">STANDART</span>
+        <span class="size-items__size">MAXI</span>
+        </div>
+        <div class="grid-item__product--price">
+          <p class="grid-item__product--price__price">13 499 ₽</p>
+          <div class="grid-item__product--price__button">В корзину</div>
+        </div>
+        </div>
+        </div>
+          <div class="grid-item__product">
+          <img class="img-items" src="../styles/media/pictures/imageFlower.png" alt="" />
+          <div class="conteiner--info">
+          <a href='./item.html' class="text-items">Букет 25 роз Нежный микс</a>
+        <div class="size-items">
+        <p class="size-items__text">Размер:</p>
+        <span class="size-items__size">MINI</span>
+        <span class="size-items__size">STANDART</span>
+        <span class="size-items__size">MAXI</span>
+        </div>
+        <div class="grid-item__product--price">
+          <p class="grid-item__product--price__price">13 499 ₽</p>
+          <div class="grid-item__product--price__button">В корзину</div>
+        </div>
+        </div>
+        </div>
+          <div class="grid-item__product">
+          <img class="img-items" src="../styles/media/pictures/imageFlower.png" alt="" />
+          <div class="conteiner--info">
+          <a href='./item.html' class="text-items">Букет 25 роз Нежный микс</a>
+        <div class="size-items">
+        <p class="size-items__text">Размер:</p>
+        <span class="size-items__size">MINI</span>
+        <span class="size-items__size">STANDART</span>
+        <span class="size-items__size">MAXI</span>
+        </div>
+        <div class="grid-item__product--price">
+          <p class="grid-item__product--price__price">13 499 ₽</p>
+          <div class="grid-item__product--price__button">В корзину</div>
+        </div>
+        </div>
+        </div>
+          <div class="grid-item__product">
+          <img class="img-items" src="../styles/media/pictures/imageFlower.png" alt="" />
+          <div class="conteiner--info">
+          <a href='./item.html' class="text-items">Букет 25 роз Нежный микс</a>
+        <div class="size-items">
+        <p class="size-items__text">Размер:</p>
+        <span class="size-items__size">MINI</span>
+        <span class="size-items__size">STANDART</span>
+        <span class="size-items__size">MAXI</span>
+        </div>
+        <div class="grid-item__product--price">
+          <p class="grid-item__product--price__price">13 499 ₽</p>
+          <div class="grid-item__product--price__button">В корзину</div>
+        </div>
+        </div>
+        </div>
+          <div class="grid-item__product">
+          <img class="img-items" src="../styles/media/pictures/imageFlower.png" alt="" />
+          <div class="conteiner--info">
+          <a href='./item.html' class="text-items">Букет 25 роз Нежный микс</a>
+        <div class="size-items">
+        <p class="size-items__text">Размер:</p>
+        <span class="size-items__size">MINI</span>
+        <span class="size-items__size">STANDART</span>
+        <span class="size-items__size">MAXI</span>
+        </div>
+        <div class="grid-item__product--price">
+          <p class="grid-item__product--price__price">13 499 ₽</p>
+          <div class="grid-item__product--price__button">В корзину</div>
+        </div>
+        </div>
+        </div>
+        
+
+
+
+      
+</div>
+
+
+</div>
+
+</div>
+
+     </main>
+
+   <footer class="footer">
+        <div class="footer__main--container">
+            <div class="first-container__text">
+                <div class="footer__title">Цветы поштучно</div>
+                <div class="footer__subtitle">Кустовая роза</div>
+                <div class="footer__subtitle">Пионовидная роза</div>
+                <div class="footer__subtitle">Хризантемы поштучно</div>
+                <div class="footer__subtitle">Альстромерия</div>
+                <div class="footer__subtitle">Тюльпаны</div>
+                <div class="footer__subtitle">Герберы поштучно</div>
+                <div class="footer__subtitle">Лилии поштучно</div>
+                <div class="footer__subtitle">Пионы</div>
+                <div class="footer__subtitle">Эустома</div>
+                <div class="footer__subtitle">Каллы поштучно</div>
+                <div class="footer__subtitle">Маттиола</div>
+            </div>
+            <div class="second-container__text">
+                <div class="footer__title">Розы</div>
+                <div class="footer__subtitle">Голландская роза</div>
+                <div class="footer__subtitle">Местная роза</div>
+                <div class="footer__subtitle">Кустовые розы</div>
+                <div class="footer__subtitle">Пионовидные розы</div>
+                <div class="footer__subtitle">Букет из 101 розы</div>
+            </div>
+            <div class="third-container__text">
+                <div class="footer__title">Букеты</div>
+                <div class="footer__subtitle">Сборные букеты</div>
+                <div class="footer__subtitle">Букеты мз хризантем</div>
+                <div class="footer__subtitle">Букеты из эустом</div>
+                <div class="footer__subtitle">Букеты из гипсофилов</div>
+                <div class="footer__subtitle">Букеты из генер</div>
+                <div class="footer__subtitle">Букеты из пионов</div>
+                <div class="footer__subtitle">Букеты из тюльпанов</div>
+            </div>
+            <div class="fourth-container__text">
+                <div class="footer__title">Композиции</div>
+                <div class="footer__subtitle">Ящики с цветами</div>
+                <div class="footer__subtitle">Коробки с цветами</div>
+                <div class="footer__subtitle">Корзины с цветами</div>
+            </div>
+            <div class="fifth-container__text">
+                <div class="footer__title">Подарки</div>
+                <div class="footer__subtitle">Мягкие игрушки</div>
+                <div class="footer__subtitle">Коробки конфет</div>
+            </div>
+            <div class="sixth-container__text">
+                <div class="footer__title">Информация</div>
+                <div class="footer__subtitle">Доставка</div>
+                <div class="footer__subtitle">Оплата</div>
+                <div class="footer__subtitle">Отзывы</div>
+                <div class="footer__subtitle">Блог</div>
+                <div class="footer__subtitle">Гарантии</div>
+                <div class="footer__subtitle">Вопрос и ответ</div>
+                <div class="footer__subtitle">О компании</div>
+                <div class="footer__subtitle">Контакты</div>
+            </div>
+            <div class="sevnth-container__text">
+                <div class="footer__title">Наши координаты</div>
+                <div class="sevnth-subcontainer__text1">
+                    <div class="footer__subtitle">Служба доставки</div>
+                    <div class="footer__title">+7 (999) 777-13-37</div>
+                </div>
+                <div class="sevnth-subcontainer__text2">
+                    <div class="footer__subtitle">E-mail:</div>
+                    <div class="footer__title">flowers@flowerworld.com</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__secondary--container">
+            <div class="dividing-line"></div>
+            <div class="footer__text">© 2014 – 2022. Интернет-магазин «Flower World»</div>
+            <div class="footer__icon--container">
+                <div class="footer__icon-1"></div>
+                <div class="footer__icon-2"></div>
+                <div class="footer__icon-3"></div>
+                <div class="footer__icon-4"></div>
+                <div class="footer__icon-5"></div>
+            </div>
+            <div class="footer__text1">Мы в социальных сетях:</div>
+            <div class="footer__social--container">
+                <div class="footer__social-1"></div>
+                <div class="footer__social-2"></div>
+                <div class="footer__social-3"></div>
+            </div>
+        </div>
+    
+    </footer>
+
+
+  </body>
+</html>
